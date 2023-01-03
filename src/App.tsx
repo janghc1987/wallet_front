@@ -7,7 +7,6 @@ import Aside from './components/Aside';
 //import './assets/css/style.css';
 import './assets/css/common.css';
 import './assets/css/reset.css';
-import './assets/css/swiper-bundle.css';
 import './assets/css/style.css';
 import './assets/css/jquery.datetimepicker.min.css';
 

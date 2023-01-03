@@ -1,4 +1,6 @@
 import  { useEffect } from 'react';
+import { handleTitle } from '../../utils';
+import $ from 'jquery';
 import axios from 'axios';
 
 const ContactContainer = () => {

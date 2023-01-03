@@ -5,7 +5,6 @@ import twitter from '../../../assets/img/twitter-brands.svg';
 import telegram from '../../../assets/img/telegram-plane-brands.svg';
 import explorer from '../../../assets/img/internet-explorer-brands.svg';
 import medium from '../../../assets/img/medium.png';
-import { useRecoilState } from 'recoil';
 
 function SidenavFooter() {
 

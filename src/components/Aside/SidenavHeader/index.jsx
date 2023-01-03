@@ -60,7 +60,7 @@ function SidenavHeader({ AsidelogoCt, hideShowSidebar }) {
       <a href="/" className="mainLogo" ><img src={mainlogo} alt="로고"/></a>
       <nav>
         <ul className="clearfix">
-          <li><a href="#" onClick={()=>{window.open('http://megaphonekorea.com/toolbox/community_list/q/type/NOTICE')}}>Contact Us</a></li>
+          <li><a href="#" onClick={()=>{history.push('/contact')}}>Contact Us</a></li>
         </ul>
       </nav>
       <div className="connectBtns">

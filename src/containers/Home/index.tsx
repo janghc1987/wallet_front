@@ -36,93 +36,11 @@ const HomeContainer = () => {
 
     <section>
       <div className="mainPage" style={{display:'block'}}>
-        <MainHeader />
-        <div style={{display: 'block', width: '100%', height: '50px', backgroundColor:"#F5F6FA"}}></div>
-
         <div className="secCont7">
           <div className="contInner">
             <div className="contBox">
-              <div className="box1">
+              <div className="box1" style={{height:800}}>
                 <p>How to enjoy with MEGA NFT</p>
-              </div>
-              <div className="box2">
-                <ul>
-                  <li>
-                    <span className="frame"><img src={ftimg1} alt=""/></span>
-                    <p>Connect your Wallet</p>
-                    <div className="txtbox">
-                      <p>Once you’ve connected</p>
-                      <p>your Metamask wallet</p>
-                      <p>to MEGA NFT, you are</p>
-                      <p>ready to buy NFTs.</p>
-                      <p> &nbsp; </p>
-                    </div>
-                  </li>
-                  <li>
-                    <span className="frame"><img src={ftimg2} alt=""/></span>
-                    <p>Exchange to MGP</p>
-                    <div className="txtbox">
-                      <p>In order to trade NFT,</p>
-                      <p>you need MGP.</p>
-                      <p>You can get MGP by</p>
-                      <p>exchanging from ETH</p>
-                      <p>or MEGA.</p>
-                    </div>
-                  </li>
-                  <li>
-                    <span className="frame"><img src={ftimg3} alt=""/></span>
-                    <p>How to Buy & Sell</p>
-                    <div className="txtbox">
-                      <p>Buy or bid for your favorite</p>
-                      <p>NFTs with MGP only.</p>
-                      <p>Sell your NFTs</p>
-                      <p>curated by MEGA NFT.</p>
-                      <p> &nbsp; </p>
-                    </div>
-                  </li>
-                  <li>
-                    <span className="frame"><img src={ftimg4} alt=""/></span>
-                    <p>Certificate / Delivery</p>
-                    <div className="txtbox">
-                      <p>You can check the</p>
-                      <p>certificate from your</p>
-                      <p>profile.</p>
-                      <p>For delivery, please</p>
-                      <p>contact us by e-mail.</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="contBox2">
-              <div className="box1">
-                <p>Explorer</p>
-              </div>
-              <div className="box2">
-                <ul>
-                  <li>
-                    <a href="#none" >
-                      <span className="frame type1"><img src={MegaAct} alt=""/></span>
-                      <span className="frame type2"><img src={Mega} alt=""/></span>
-                      <span className="txt">Mega</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#none" >
-                      <span className="frame type1"><img src={PaintAct} alt=""/></span>
-                      <span className="frame type2"><img src={Paint} alt=""/></span>
-                      <span className="txt">Artwork</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#none" >
-                      <span className="frame type1"><img src={ConnectAct} alt=""/></span>
-                      <span className="frame type2"><img src={Connect} alt=""/></span>
-                      <span className="txt">Digital Art</span>
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
